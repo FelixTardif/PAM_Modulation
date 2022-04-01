@@ -10,8 +10,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;"/>
-<p>La fonction rand genere un nombre aléatoire entre  0 et 1 . La fonction round donc arrondi ce nobmre soit a 0 soit a 1. </p>
-<p>le résultat donc est une matrice de N colonnes represantans le nombre de séquence; et de M lignes représantant le nombre d'élements dans une séquence </p>
+<p>La fonction rand genere un nombre aléatoire entre  0 et 1 . La fonction round arrondi donc ce nombre soit a 0 soit a 1. </p>
+<p>le résultat est donc une matrice de N colonnes représentant le nombre de séquence; et de M lignes représentant le nombre d'élements dans une séquence </p>
 <p>l'affichage se fait de la manière suivante:</p>
 <img src="images/ak_display.png" style ="display: block;
   margin-left: auto;
@@ -22,12 +22,12 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;"/>
-<p>les signaux a transmettre doivent etre surechantilloné selon le critère de Shanon. voici ci dessous la fonction implémentée pour réaliser le surechantilonage</p>
+<p>les signaux a transmettre doivent être suréchantillonné selon le critère de Shanon. Voici ci-dessous la fonction implémentée pour réaliser le suréchantillonnage</p>
 <img src="images/upsample.png" style ="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;" />
-<p>les séquences echantillonés seront de la forme suivante</p>
+<p>les séquences échantillonnées seront de la forme suivante</p>
 <img src="images/upsampled.png" style ="display: block;
   margin-left: auto;
   margin-right: auto;
@@ -39,19 +39,19 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;"/>
-<p>Ensuite, pour avoir un filtre pour chaque séquence de bits, il faut ramener ce filtre a  N differente fréquences pour pouvoir les transmettre indépendemment.  </p>
+<p>Ensuite, pour avoir un filtre pour chaque séquence de bits, il faut ramener ce filtre à N differente fréquences pour pouvoir les transmettre indépendemment.  </p>
 <img src="images/pn_sequence.png" style ="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;"/>
-<p>Ce qui fournit les porteuse Pn suivantes :</p>
+<p>Ce qui fournit les porteuses Pn suivantes :</p>
 <img src="images/pn_plot.png" style ="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;"/>
 
 <h3 style="color:pink" > Produit de convolution</h3>
-<p>La convolution en domaine temporelle est fait gràce à la fonction conv de matlab</p>
+<p>La convolution en domaine temporelle est fait grâce à la fonction conv de matlab</p>
 <img src="images/conv.png" style ="display: block;
   margin-left: auto;
   margin-right: auto;
